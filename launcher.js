@@ -19,7 +19,7 @@ function Launcher(opts) {
     this.config = _.extend({
         pressureSensorPin: "A0",
         fillValvePin: 2,
-        launchValvePin: 3,
+        launchValvePin: 4,
         dataInterval: 200,
         pressure: {
             // parameters to measure from a SunPro CP7577 oil pressure sender
